@@ -21,8 +21,8 @@ class DatabaseSeeder extends Seeder
         // Create Super Admin with MD5 hash as requested
         User::create([
             'name' => 'Super Administrator',
-            'email' => 'admin@admin.com',
-            'password' => hash('md5', 'admin'), // Use hash() function instead of md5()
+            'email' => 'adm.posko@gmail.com',
+            'password' => hash('md5', 'admin123'), // Use hash() function instead of md5()
             'role' => 'super_admin',
             'email_verified_at' => now(),
         ]);
